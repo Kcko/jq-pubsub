@@ -1,0 +1,20 @@
+{
+  "name": "@kcko/jq-pubsub",
+  "version": "1.0.0",
+  "description": "extended pubsub event system",
+  "main": "jq-pubsub.jquery.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kcko/jq-pubsub.git"
+  },
+  "keywords": [
+    "pubsub",
+    "jquery"
+  ],
+  "author": "Roman Janko <admin@rjwebdesign.cz> (https://rjwebdesign.cz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kcko/jq-pubsub/issues"
+  },
+  "homepage": "https://github.com/Kcko/jq-pubsub#readme"
+}
