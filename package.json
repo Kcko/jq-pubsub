@@ -1,6 +1,9 @@
 {
   "name": "@kcko/jquery-pubsub-eventer",
   "version": "1.0.0",
+  "dependencies": {
+    "jquery": ">=1.7.2"
+  },
   "description": "Extended pubsub event system. It does not matter on sequence of events triggering.",
   "main": "jquery-pubsub-eventer.jquery.js",
   "repository": {
