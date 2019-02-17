@@ -1,7 +1,17 @@
+/*!
+ * jQuery PubSub Eventer - improved pubsub events system
+ *
+ * The MIT License
+ *
+ * author:  Roman Janko <admin@rjwebdesign.cz> (https://rjwebdesign.cz)
+ * github:  Kcko/jquery-pubsub-eventer
+ * version: 1.0.0
+ *
+ */
+
 (function($) {
  
     var o = $({});
-
     var calledEvents = {};
    
     $.subscribe = function() {
@@ -11,7 +21,7 @@
         var eventName = arguments[0];
         var callback  = arguments[1];
         var clbArgs   = [
-          {type: eventName}, // event
+          {type: eventName}, 
 
         ].concat(calledEvents[eventName][0]);
 
@@ -30,7 +40,6 @@
       var args      = Array.prototype.slice.call(arguments, 1);
       
       calledEvents[eventName] = args;
-      
     };
    
 }(jQuery));

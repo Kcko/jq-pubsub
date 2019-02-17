@@ -1,20 +1,24 @@
 {
-  "name": "@kcko/jq-pubsub",
+  "name": "@kcko/jquery-pubsub-eventer",
   "version": "1.0.0",
-  "description": "extended pubsub event system",
-  "main": "jq-pubsub.jquery.js",
+  "description": "Extended pubsub event system. It does not matter on sequence of events triggering.",
+  "main": "jquery-pubsub-eventer.jquery.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kcko/jq-pubsub.git"
+    "url": "git+https://github.com/Kcko/jquery-pubsub-eventer.git"
   },
   "keywords": [
     "pubsub",
-    "jquery"
+    "jquery",
+    "trigger",
+    "subscribe",
+    "publish",
+    "events"
   ],
   "author": "Roman Janko <admin@rjwebdesign.cz> (https://rjwebdesign.cz)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kcko/jq-pubsub/issues"
+    "url": "https://github.com/Kcko/jquery-pubsub-eventer/issues"
   },
-  "homepage": "https://github.com/Kcko/jq-pubsub#readme"
+  "homepage": "https://github.com/Kcko/jquery-pubsub-eventer#readme"
 }
