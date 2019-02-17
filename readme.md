@@ -33,4 +33,4 @@ $.unpublish('some-your-custom-event/sub-event-if-you-need');
 
 
 ## Live example 
-You can see on [JsBin](https://jsbin.com/tocudof/edit?html,js,output)
+You can see on [JsBin](https://jsbin.com/tocudof/2/edit?html,js,output)
